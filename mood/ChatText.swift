@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ChatText.swift
 //  mood
 //
 //  Created by Sophia Park on 11/9/24.
@@ -7,13 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    
+struct ChatText: View {
     var body: some View {
-        Login()
+        Text("AI Chat with Ami Would Be Implemented")
     }
 }
 
 #Preview {
-    ContentView()
+    ChatText()
 }
